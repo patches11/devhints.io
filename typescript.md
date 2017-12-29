@@ -5,6 +5,13 @@ category: JavaScript libraries
 
 TypeScript is just like ES2015 with type-checking. All ES2015 (classes, etc) should work.
 
+## Index Signature
+
+
+```ts
+const map: {} = {}
+```
+
 ## Basic types
 
 ```ts

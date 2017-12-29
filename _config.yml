@@ -50,10 +50,10 @@ defaults:
 
 # Site info
 
-url: https://devhints.io
-title: Devhints.io cheatsheets
+url: https://devhints.patrickbrown.us
+title: devhints.patrickbrown.us cheatsheets
 
 # GitHub metadata
 # https://help.github.com/articles/repository-metadata-on-github-pages/
 
-repository: rstacruz/cheatsheets
+repository: patches11/patches11.github.io

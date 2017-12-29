@@ -12,7 +12,7 @@ env PORT=4001 yarn run dev
 
 ## CSS classes
 
-See <https://devhints.io/cheatsheet-styles> for a reference on styling.
+See <https://devhints.patrickbrown.us/cheatsheet-styles> for a reference on styling.
 
 ## JavaScript
 
