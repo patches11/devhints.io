@@ -5,7 +5,7 @@ category: Others
 
 ## Java Converstions
 
-```scala
+```Scala
 import scala.collection.JavaConverters._
 
 javaList.asScala
@@ -13,15 +13,15 @@ javaList.asScala
 
 ## For Comprehension
 
-```scala
+```Scala
 val froidConfig = for {
-      host <- scala.util.Properties.envOrNone("froidHost")
-      port <- scala.util.Properties.envOrNone("froidPort").flatMap(p => Try(p.toInt).toOption)
-    } yield {
-      FroidParams(
-        host,
-        port
-      )
-    }
+    host <- scala.util.Properties.envOrNone("froidHost")
+    port <- scala.util.Properties.envOrNone("froidPort").flatMap(p => Try(p.toInt).toOption)
+  } yield {
+    FroidParams(
+      host,
+      port
+    )
+  }
 ```
 
