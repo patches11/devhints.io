@@ -9,7 +9,7 @@ TypeScript is just like ES2015 with type-checking. All ES2015 (classes, etc) sho
 
 
 ```ts
-const map: {} = {}
+const map: {[index:string] : boolean} = {}
 ```
 
 ## Basic types
