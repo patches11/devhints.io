@@ -15,13 +15,18 @@ javaList.asScala
 
 ```Scala
 val froidConfig = for {
-    host <- scala.util.Properties.envOrNone("froidHost")
-    port <- scala.util.Properties.envOrNone("froidPort").flatMap(p => Try(p.toInt).toOption)
+    host <- scala.util.Properties.envOrNone("host")
+    port <- scala.util.Properties.envOrNone("port").flatMap(p => Try(p.toInt).toOption)
   } yield {
-    FroidParams(
+    Params(
       host,
       port
     )
   }
 ```
 
+## Postfix Ops
+
+```Scala
+import language.postfixOps
+```
