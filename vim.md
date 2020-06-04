@@ -7,6 +7,13 @@ updated: 2017-08-26
 weight: -10
 ---
 
+### Top
+
+| Shortcut                  | Description                      |
+| ---                       | ---                              |
+| `:set relativenumber`     | Use relative line numbers        |
+| `:set norelativenumber`   | Use absolute line numbers        |
+
 Getting started
 ---------------
 {: .-three-column}
