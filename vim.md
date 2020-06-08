@@ -9,10 +9,13 @@ weight: -10
 
 ### Top
 
-| Shortcut                  | Description                      |
-| ---                       | ---                              |
-| `:set relativenumber`     | Use relative line numbers        |
-| `:set norelativenumber`   | Use absolute line numbers        |
+| Shortcut                  | Description                       |
+| ---                       | ---                               |
+| `:set relativenumber`     | Use relative line numbers         |
+| `:set norelativenumber`   | Use absolute line numbers         |
+| `q<letter><commands>q`    | Record macro `<letter>`           |
+| `@<letter>`               | Play macro `<letter>`             |
+| `@@`                      | Replay last macro                 |
 
 Getting started
 ---------------
